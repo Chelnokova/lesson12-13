@@ -81,7 +81,7 @@ body {
 	width: 200px;
 	height: 50px;
 	position: absolute;
-	left: -20%;
+	left: 120%;
 	border-radius: 52% 48% 76% 24% / 78% 25% 75% 22%;
 	box-shadow: 0px 0px 40px 50px #fff;
 }
@@ -117,51 +117,51 @@ body {
 
 @keyframes cloud-one {
 	0% {
-		left: -20%;
+		left: 105%;
 	}
 
 	100% {
-		left: 105%;
+		left: -20%;
 	}
 }
 
 @keyframes cloud-two {
 	0% {
-		left: -20%;
+		left: 105%;
 	}
 
 	100% {
-		left: 105%;
+		left: -20%;
 	}
 }
 
 @keyframes cloud-three {
 	0% {
-		left: -20%;
+		left: 105%;
 	}
 
 	100% {
-		left: 105%;
+		left: -20%;
 	}
 }
 
 @keyframes cloud-four {
 	0% {
-		left: -20%;
+		left: 105%;
 	}
 
 	100% {
-		left: 105%;
+		left: -20%;
 	}
 }
 
 @keyframes cloud-five {
 	0% {
-		left: -20%;
+		left: 105%;
 	}
 
 	100% {
-		left: 105%;
+		left: -20%;
 	}
 }
 
@@ -191,7 +191,6 @@ body {
 	position: absolute;
 	z-index: 1;
 	top: 220px;
-	left: -450px;
 	width: 350px;
 	height: 200px;
 	border-radius: 6% 7% 5% 5% / 14% 14% 9% 10%;
@@ -379,7 +378,7 @@ body {
 	padding: 15px;
 	position: absolute;
 	z-index: 3;
-	animation: wheels 3.5s linear infinite reverse;
+	animation: wheels 2400ms linear infinite;
 }
 
 .wheels_left {
